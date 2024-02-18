@@ -1,0 +1,14 @@
+Variable,Initial value,Current value
+base_url,,https://gateway.scan-interfax.ru
+test_login,,"""sf_student1"""
+test_password,,"""4i2385j"""
+test_auth,,eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIwYzI5NDI0NC1jYzgyLWVkMTEtODI3NS04NzJjODBhZjI3NTMiLCJuYmYiOjE3MDgxODkxODgsImV4cCI6MTcwODI3NTU4OCwiaXNzIjoiU2NhbkdhdGV3YXkiLCJhdWQiOiJzZl9zdHVkZW50MSJ9.jkTzfiiDMEdl6cfact4tC-ZfTjuFPIsGRe6GrucU_gA
+current_balance,,774193
+subjects_name1,,Административная и хозяйственная деятельность
+subjects_name2,,Административные правонарушения
+subjects_name3,,Отставки и назначения
+subjects_total,,709
+news_agent_1,Вести.Ru (vesti.ru),Вести.Ru (vesti.ru)
+news_agent_2,Аргументы и Факты - Казань (kazan.aif.ru),Аргументы и Факты - Казань (kazan.aif.ru)
+idens1,"""1:0JPQqdGM0JNWCdCzf2Jt0LHQotGV0ZUh0ZbRlBXCt0Je0JHQruKAnDcUXkZQ0YvQscKnehLRnNC1KtGK0Ll9BWLigLo/HXXCrhw=""","""1:0JPQqdGM0JNWCdCzf2Jt0LHQotGV0ZUh0ZbRlBXCt0Je0JHQruKAnDcUXkZQ0YvQscKnehLRnNC1KtGK0Ll9BWLigLo/HXXCrhw="""
+idens2,"""1:fmYoHEjQrRbQhz3RiUtm4oCh0JLRmtCLIyU10IzigqzRgGjQmCoR0JFg0YRhwrVzN9CxDUM50KcpdTbRiNCLwpjRkuKAphXRkVxh0JU50K5uWdC50L7RjX0C0KwQRsKp""","""1:fmYoHEjQrRbQhz3RiUtm4oCh0JLRmtCLIyU10IzigqzRgGjQmCoR0JFg0YRhwrVzN9CxDUM50KcpdTbRiNCLwpjRkuKAphXRkVxh0JU50K5uWdC50L7RjX0C0KwQRsKp"""

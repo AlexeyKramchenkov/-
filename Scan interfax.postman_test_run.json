@@ -1,0 +1,152 @@
+{
+	"id": "0b834983-d177-4d8e-a1d6-4af77bd1f6b8",
+	"name": "Scan interfax",
+	"timestamp": "2024-02-17T16:59:50.143Z",
+	"collection_id": "31060117-0edfc70f-b028-43af-acb7-b478d88191b3",
+	"folder_id": 0,
+	"environment_id": "31060117-a78825e2-aa64-4e3a-acc6-d06834fae72d",
+	"totalPass": 5,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-02-17T16:59:45.816Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "8c9ded4f-12f5-436e-ba8b-c0cdad2894a8",
+			"name": "Auth",
+			"url": "https://gateway.scan-interfax.ru/api/v1/account/login",
+			"time": 309,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Если в ответе есть тoken, то записать его значение в test_auth": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Если в ответе есть тoken, то записать его значение в test_auth": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				309
+			],
+			"allTests": [
+				{
+					"Если в ответе есть тoken, то записать его значение в test_auth": true,
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "74f14ae8-430e-4d28-8669-9d2a46a92e6c",
+			"name": "Current_balance",
+			"url": "https://gateway.scan-interfax.ru/api/v1/account/balance",
+			"time": 421,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				421
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "3807b13c-7ed9-438c-b4d5-fc4c109b4d9a",
+			"name": "Получение тем публикаций",
+			"url": "https://gateway.scan-interfax.ru/api/v1/entities/subjects?index=0&pageSize=3",
+			"time": 60,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				60
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ce2dddd3-be77-43f4-a87f-1403c3947dc5",
+			"name": "Documents",
+			"url": "https://gateway.scan-interfax.ru/api/v1/documents",
+			"time": 124,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				124
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 914,
+	"collection": {
+		"requests": [
+			{
+				"id": "8c9ded4f-12f5-436e-ba8b-c0cdad2894a8",
+				"method": "POST"
+			},
+			{
+				"id": "74f14ae8-430e-4d28-8669-9d2a46a92e6c",
+				"method": "GET"
+			},
+			{
+				"id": "3807b13c-7ed9-438c-b4d5-fc4c109b4d9a",
+				"method": "GET"
+			},
+			{
+				"id": "ce2dddd3-be77-43f4-a87f-1403c3947dc5",
+				"method": "POST"
+			}
+		]
+	}
+}
